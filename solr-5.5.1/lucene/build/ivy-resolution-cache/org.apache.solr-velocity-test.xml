@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="org.apache.solr"
+		module="velocity"
+		revision="working@larrys-MacBook-Pro-2.local"
+		conf="test"
+		confs="test"
+		date="20170701110358"/>
+	<dependencies>
+	</dependencies>
+</ivy-report>

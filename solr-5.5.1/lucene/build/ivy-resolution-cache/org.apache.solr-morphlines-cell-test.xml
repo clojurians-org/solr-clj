@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="org.apache.solr"
+		module="morphlines-cell"
+		revision="working@larrys-MacBook-Pro-2.local"
+		conf="test"
+		confs="test"
+		date="20170701110348"/>
+	<dependencies>
+	</dependencies>
+</ivy-report>

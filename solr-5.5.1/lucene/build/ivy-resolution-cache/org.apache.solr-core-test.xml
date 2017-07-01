@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="org.apache.solr"
+		module="core"
+		revision="working@larrys-MacBook-Pro-2.local"
+		conf="test"
+		confs="test, test.DfsMiniCluster, test.MiniKdc"
+		date="20170701115315"/>
+	<dependencies>
+		<module organisation="com.fasterxml.jackson.core" name="jackson-annotations">
+			<revision name="2.5.4" status="release" pubdate="20150610092650" resolver="public" artresolver="main" homepage="http://github.com/FasterXML/jackson" downloaded="false" searched="false" default="false" conf="master" position="6">
+				<metadata-artifact status="no" details="" size="6376" time="0" location="/Users/larluo/.ivy2/cache/com.fasterxml.jackson.core/jackson-annotations/ivy-2.5.4.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.5.4/jackson-annotations-2.5.4.pom"/>
+				<caller organisation="org.apache.solr" name="core" conf="test" rev="2.5.4" rev-constraint-default="2.5.4" rev-constraint-dynamic="2.5.4" callerrev="working@larrys-MacBook-Pro-2.local"/>
+				<artifacts>
+					<artifact name="jackson-annotations" type="bundle" ext="jar" status="no" details="" size="39822" time="0" location="/Users/larluo/.ivy2/cache/com.fasterxml.jackson.core/jackson-annotations/bundles/jackson-annotations-2.5.4.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.5.4/jackson-annotations-2.5.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.fasterxml.jackson.core" name="jackson-databind">
+			<revision name="2.5.4" status="release" pubdate="20150610094351" resolver="public" artresolver="main" homepage="http://github.com/FasterXML/jackson" downloaded="false" searched="false" default="false" conf="master" position="5">
+				<metadata-artifact status="no" details="" size="8625" time="0" location="/Users/larluo/.ivy2/cache/com.fasterxml.jackson.core/jackson-databind/ivy-2.5.4.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.5.4/jackson-databind-2.5.4.pom"/>
+				<caller organisation="org.apache.solr" name="core" conf="test" rev="2.5.4" rev-constraint-default="2.5.4" rev-constraint-dynamic="2.5.4" callerrev="working@larrys-MacBook-Pro-2.local"/>
+				<artifacts>
+					<artifact name="jackson-databind" type="bundle" ext="jar" status="no" details="" size="1144035" time="0" location="/Users/larluo/.ivy2/cache/com.fasterxml.jackson.core/jackson-databind/bundles/jackson-databind-2.5.4.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.5.4/jackson-databind-2.5.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.easymock" name="easymock">
+			<revision name="3.0" status="release" pubdate="20100509030641" resolver="public" artresolver="main" homepage="" downloaded="false" searched="false" default="false" conf="master" position="2">
+				<metadata-artifact status="no" details="" size="3828" time="0" location="/Users/larluo/.ivy2/cache/org.easymock/easymock/ivy-3.0.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/easymock/easymock/3.0/easymock-3.0.pom"/>
+				<caller organisation="org.apache.solr" name="core" conf="test" rev="3.0" rev-constraint-default="3.0" rev-constraint-dynamic="3.0" callerrev="working@larrys-MacBook-Pro-2.local"/>
+				<artifacts>
+					<artifact name="easymock" type="jar" ext="jar" status="no" details="" size="114128" time="0" location="/Users/larluo/.ivy2/cache/org.easymock/easymock/jars/easymock-3.0.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/easymock/easymock/3.0/easymock-3.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.objenesis" name="objenesis">
+			<revision name="1.2" status="release" pubdate="20090827065019" resolver="public" artresolver="main" homepage="http://objenesis.googlecode.com/svn/docs/index.html" downloaded="false" searched="false" default="false" conf="master" position="4">
+				<metadata-artifact status="no" details="" size="3344" time="0" location="/Users/larluo/.ivy2/cache/org.objenesis/objenesis/ivy-1.2.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/objenesis/objenesis/1.2/objenesis-1.2.pom"/>
+				<caller organisation="org.apache.solr" name="core" conf="test" rev="1.2" rev-constraint-default="1.2" rev-constraint-dynamic="1.2" callerrev="working@larrys-MacBook-Pro-2.local"/>
+				<artifacts>
+					<artifact name="objenesis" type="jar" ext="jar" status="no" details="" size="36046" time="0" location="/Users/larluo/.ivy2/cache/org.objenesis/objenesis/jars/objenesis-1.2.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/objenesis/objenesis/1.2/objenesis-1.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="cglib" name="cglib-nodep">
+			<revision name="2.2" status="release" pubdate="20081202062832" resolver="public" artresolver="main" homepage="http://cglib.sourceforge.net/" downloaded="false" searched="false" default="false" conf="master" position="3">
+				<license name="ASF 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2690" time="0" location="/Users/larluo/.ivy2/cache/cglib/cglib-nodep/ivy-2.2.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/cglib/cglib-nodep/2.2/cglib-nodep-2.2.pom"/>
+				<caller organisation="org.apache.solr" name="core" conf="test" rev="2.2" rev-constraint-default="2.2" rev-constraint-dynamic="2.2" callerrev="working@larrys-MacBook-Pro-2.local"/>
+				<artifacts>
+					<artifact name="cglib-nodep" type="jar" ext="jar" status="no" details="" size="322362" time="0" location="/Users/larluo/.ivy2/cache/cglib/cglib-nodep/jars/cglib-nodep-2.2.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/cglib/cglib-nodep/2.2/cglib-nodep-2.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.commons" name="commons-math3">
+			<revision name="3.4.1" status="release" pubdate="20150109012810" resolver="public" artresolver="main" homepage="http://commons.apache.org/proper/commons-math/" downloaded="false" searched="false" default="false" conf="master" position="1">
+				<metadata-artifact status="no" details="" size="11211" time="0" location="/Users/larluo/.ivy2/cache/org.apache.commons/commons-math3/ivy-3.4.1.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/apache/commons/commons-math3/3.4.1/commons-math3-3.4.1.pom"/>
+				<caller organisation="org.apache.solr" name="core" conf="test" rev="3.4.1" rev-constraint-default="3.4.1" rev-constraint-dynamic="3.4.1" callerrev="working@larrys-MacBook-Pro-2.local"/>
+				<artifacts>
+					<artifact name="commons-math3" type="jar" ext="jar" status="no" details="" size="2035066" time="0" location="/Users/larluo/.ivy2/cache/org.apache.commons/commons-math3/jars/commons-math3-3.4.1.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/apache/commons/commons-math3/3.4.1/commons-math3-3.4.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.antlr" name="antlr4-runtime">
+			<revision name="4.5.1-1" status="release" pubdate="20150821031403" resolver="public" artresolver="main" homepage="" downloaded="false" searched="false" default="false" conf="master" position="0">
+				<metadata-artifact status="no" details="" size="3388" time="0" location="/Users/larluo/.ivy2/cache/org.antlr/antlr4-runtime/ivy-4.5.1-1.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/antlr/antlr4-runtime/4.5.1-1/antlr4-runtime-4.5.1-1.pom"/>
+				<caller organisation="org.apache.solr" name="core" conf="test" rev="4.5.1-1" rev-constraint-default="4.5.1-1" rev-constraint-dynamic="4.5.1-1" callerrev="working@larrys-MacBook-Pro-2.local"/>
+				<artifacts>
+					<artifact name="antlr4-runtime" type="jar" ext="jar" status="no" details="" size="302034" time="0" location="/Users/larluo/.ivy2/cache/org.antlr/antlr4-runtime/jars/antlr4-runtime-4.5.1-1.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/antlr/antlr4-runtime/4.5.1-1/antlr4-runtime-4.5.1-1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>

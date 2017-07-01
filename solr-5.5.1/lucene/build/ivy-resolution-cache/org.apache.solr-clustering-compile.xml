@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="org.apache.solr"
+		module="clustering"
+		revision="working@larrys-MacBook-Pro-2.local"
+		conf="compile"
+		confs="compile"
+		date="20170701110259"/>
+	<dependencies>
+		<module organisation="com.fasterxml.jackson.core" name="jackson-databind">
+			<revision name="2.5.4" status="release" pubdate="20150610094351" resolver="public" artresolver="main" homepage="http://github.com/FasterXML/jackson" downloaded="false" searched="false" default="false" conf="master" position="7">
+				<metadata-artifact status="no" details="" size="8625" time="0" location="/Users/larluo/.ivy2/cache/com.fasterxml.jackson.core/jackson-databind/ivy-2.5.4.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.5.4/jackson-databind-2.5.4.pom"/>
+				<caller organisation="org.apache.solr" name="clustering" conf="compile" rev="2.5.4" rev-constraint-default="2.5.4" rev-constraint-dynamic="2.5.4" callerrev="working@larrys-MacBook-Pro-2.local"/>
+				<artifacts>
+					<artifact name="jackson-databind" type="bundle" ext="jar" status="no" details="" size="1144035" time="0" location="/Users/larluo/.ivy2/cache/com.fasterxml.jackson.core/jackson-databind/bundles/jackson-databind-2.5.4.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.5.4/jackson-databind-2.5.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.fasterxml.jackson.core" name="jackson-annotations">
+			<revision name="2.5.4" status="release" pubdate="20150610092650" resolver="public" artresolver="main" homepage="http://github.com/FasterXML/jackson" downloaded="false" searched="false" default="false" conf="master" position="6">
+				<metadata-artifact status="no" details="" size="6376" time="0" location="/Users/larluo/.ivy2/cache/com.fasterxml.jackson.core/jackson-annotations/ivy-2.5.4.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.5.4/jackson-annotations-2.5.4.pom"/>
+				<caller organisation="org.apache.solr" name="clustering" conf="compile" rev="2.5.4" rev-constraint-default="2.5.4" rev-constraint-dynamic="2.5.4" callerrev="working@larrys-MacBook-Pro-2.local"/>
+				<artifacts>
+					<artifact name="jackson-annotations" type="bundle" ext="jar" status="no" details="" size="39822" time="0" location="/Users/larluo/.ivy2/cache/com.fasterxml.jackson.core/jackson-annotations/bundles/jackson-annotations-2.5.4.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.5.4/jackson-annotations-2.5.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.simpleframework" name="simple-xml">
+			<revision name="2.7.1" status="release" pubdate="20130708210801" resolver="public" artresolver="main" homepage="http://simple.sourceforge.net" downloaded="false" searched="false" default="false" conf="master" position="3">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3601" time="0" location="/Users/larluo/.ivy2/cache/org.simpleframework/simple-xml/ivy-2.7.1.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/simpleframework/simple-xml/2.7.1/simple-xml-2.7.1.pom"/>
+				<caller organisation="org.apache.solr" name="clustering" conf="compile" rev="2.7.1" rev-constraint-default="2.7.1" rev-constraint-dynamic="2.7.1" callerrev="working@larrys-MacBook-Pro-2.local"/>
+				<artifacts>
+					<artifact name="simple-xml" type="jar" ext="jar" status="no" details="" size="413197" time="0" location="/Users/larluo/.ivy2/cache/org.simpleframework/simple-xml/jars/simple-xml-2.7.1.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/simpleframework/simple-xml/2.7.1/simple-xml-2.7.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.carrot2" name="carrot2-mini">
+			<revision name="3.10.4" status="release" pubdate="20151008180812" resolver="public" artresolver="main" homepage="" downloaded="false" searched="false" default="false" conf="master" position="0">
+				<metadata-artifact status="no" details="" size="6791" time="0" location="/Users/larluo/.ivy2/cache/org.carrot2/carrot2-mini/ivy-3.10.4.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/carrot2/carrot2-mini/3.10.4/carrot2-mini-3.10.4.pom"/>
+				<caller organisation="org.apache.solr" name="clustering" conf="compile" rev="3.10.4" rev-constraint-default="3.10.4" rev-constraint-dynamic="3.10.4" callerrev="working@larrys-MacBook-Pro-2.local"/>
+				<artifacts>
+					<artifact name="carrot2-mini" type="jar" ext="jar" status="no" details="" size="675665" time="0" location="/Users/larluo/.ivy2/cache/org.carrot2/carrot2-mini/jars/carrot2-mini-3.10.4.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/carrot2/carrot2-mini/3.10.4/carrot2-mini-3.10.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.mahout" name="mahout-math">
+			<revision name="0.6" status="release" pubdate="20120201213110" resolver="public" artresolver="main" homepage="" downloaded="false" searched="false" default="false" conf="master" position="4">
+				<metadata-artifact status="no" details="" size="15924" time="0" location="/Users/larluo/.ivy2/cache/org.apache.mahout/mahout-math/ivy-0.6.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/apache/mahout/mahout-math/0.6/mahout-math-0.6.pom"/>
+				<caller organisation="org.apache.solr" name="clustering" conf="compile" rev="0.6" rev-constraint-default="0.6" rev-constraint-dynamic="0.6" callerrev="working@larrys-MacBook-Pro-2.local"/>
+				<artifacts>
+					<artifact name="mahout-math" type="jar" ext="jar" status="no" details="" size="288914" time="0" location="/Users/larluo/.ivy2/cache/org.apache.mahout/mahout-math/jars/mahout-math-0.6.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/apache/mahout/mahout-math/0.6/mahout-math-0.6.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.mahout" name="mahout-collections">
+			<revision name="1.0" status="release" pubdate="20100412094622" resolver="public" artresolver="main" homepage="" downloaded="false" searched="false" default="false" conf="master" position="5">
+				<metadata-artifact status="no" details="" size="3399" time="0" location="/Users/larluo/.ivy2/cache/org.apache.mahout/mahout-collections/ivy-1.0.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/apache/mahout/mahout-collections/1.0/mahout-collections-1.0.pom"/>
+				<caller organisation="org.apache.solr" name="clustering" conf="compile" rev="1.0" rev-constraint-default="1.0" rev-constraint-dynamic="1.0" callerrev="working@larrys-MacBook-Pro-2.local"/>
+				<artifacts>
+					<artifact name="mahout-collections" type="jar" ext="jar" status="no" details="" size="1092695" time="0" location="/Users/larluo/.ivy2/cache/org.apache.mahout/mahout-collections/jars/mahout-collections-1.0.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/apache/mahout/mahout-collections/1.0/mahout-collections-1.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.carrot2.attributes" name="attributes-binder">
+			<revision name="1.2.3" status="release" pubdate="20150810175302" resolver="public" artresolver="main" homepage="" downloaded="false" searched="false" default="false" conf="master" position="2">
+				<metadata-artifact status="no" details="" size="4053" time="0" location="/Users/larluo/.ivy2/cache/org.carrot2.attributes/attributes-binder/ivy-1.2.3.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/carrot2/attributes/attributes-binder/1.2.3/attributes-binder-1.2.3.pom"/>
+				<caller organisation="org.apache.solr" name="clustering" conf="compile" rev="1.2.3" rev-constraint-default="1.2.3" rev-constraint-dynamic="1.2.3" callerrev="working@larrys-MacBook-Pro-2.local"/>
+				<artifacts>
+					<artifact name="attributes-binder" type="jar" ext="jar" status="no" details="" size="81921" time="0" location="/Users/larluo/.ivy2/cache/org.carrot2.attributes/attributes-binder/jars/attributes-binder-1.2.3.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/carrot2/attributes/attributes-binder/1.2.3/attributes-binder-1.2.3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.carrot2.shaded" name="carrot2-guava">
+			<revision name="18.0" status="release" pubdate="20150810174010" resolver="public" artresolver="main" homepage="" downloaded="false" searched="false" default="false" conf="master" position="1">
+				<metadata-artifact status="no" details="" size="4431" time="0" location="/Users/larluo/.ivy2/cache/org.carrot2.shaded/carrot2-guava/ivy-18.0.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/carrot2/shaded/carrot2-guava/18.0/carrot2-guava-18.0.pom"/>
+				<caller organisation="org.apache.solr" name="clustering" conf="compile" rev="18.0" rev-constraint-default="18.0" rev-constraint-dynamic="18.0" callerrev="working@larrys-MacBook-Pro-2.local"/>
+				<artifacts>
+					<artifact name="carrot2-guava" type="jar" ext="jar" status="no" details="" size="2329412" time="0" location="/Users/larluo/.ivy2/cache/org.carrot2.shaded/carrot2-guava/jars/carrot2-guava-18.0.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/carrot2/shaded/carrot2-guava/18.0/carrot2-guava-18.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>
